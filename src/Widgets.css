@@ -1,0 +1,43 @@
+.widgets{
+    flex: 0.3;
+    overflow-y: auto;
+}
+.widgets::-webkit-scrollbar{
+    display: none;
+}
+
+.widgets{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.widgets-input{
+    display: flex;
+    align-items: center;
+    background-color: var(--twitter-background);
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.widgets-input > input{
+    padding: 10px;
+    border: none;
+    background-color: var(--twitter-background);
+}
+.widgets-input > .widgets-searchIcon{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: gray;
+}
+.widgets-widgetscontainer{
+    margin-top: 15px;
+    background-color: #f5f8fa;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 20px;
+}
+.widgets-widgetscontainer > h2{
+    font-size: 20px;
+    font-weight: 800;
+    padding-left: 10px;
+}
